@@ -64,6 +64,10 @@ export default function Formulario() {
                                 </tr>
                             </tbody>
                         </table>
+                        <div>
+                            <h5>Subtotal</h5> 
+                            <h3>Total</h3>     
+                        </div>
                         <button type="button" id="btnAgregarProducto" class="btn btn-success me-3">Agregar Producto</button>
                         <button type="button" id="btnTerminarFactura" class="btn btn-success">Terminar Venta</button>
                     </div>
