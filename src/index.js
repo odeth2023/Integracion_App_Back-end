@@ -2,12 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import ComponenteFuncional from './Problema1-1';
+import ComponenteClase from './Problema1-2';
+import Formulario from './Form';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    
+    <Formulario  />
   </React.StrictMode>
 );
 
